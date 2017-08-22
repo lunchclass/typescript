@@ -1,4 +1,5 @@
-## Type Compatibility
+## Type Compatibility 타입 호환성
+같은 선언문에 있거나 같은 타입 이름을 갖는 것
 
 ### Introduce
 
