@@ -9,11 +9,11 @@
 ## Classes
 [Classes](https://github.com/lunchclass/typescript/blob/master/Classes.md)
 ## Functions
-[Functions](https://github.com/lunchclass/typescript/blob/master/Functions.md)
+[Functions](https://github.com/lunchclass/typescript/blob/master/functions.md)
 ## Generics
 [Generics](https://github.com/lunchclass/typescript/blob/master/Generics.md)
 ## Enums
-[Enums.md]
+[Enums](https://github.com/lunchclass/typescript/blob/master/Enums.md)
 ## Type Inference
 [TypeInference.md]
 ## Type Compatibility
