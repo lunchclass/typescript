@@ -34,7 +34,7 @@ console.log(Direction); // ???
   * member간 참조
   * 괄호로 묶인 경우
   * +, -, ~ 단항 연산자 사용
-  * +, -, *, /, %, <<, >>, >>> 이항 연산자 사용
+  * +, -, *, /, %, <<, >>, >>> 이항 연산자 사용 (NaN or Inifinity로 계산시 compile error)
 
 
 * 그 외에는 computed
@@ -48,4 +48,33 @@ enum FileAccess {
     // computed member
     G = "123".length
 }
+```
+
+* Enums are real objects for a reverse mapping
+```js
+enum Enum {
+    A
+}
+let a = Enum.A;
+let nameOfA = Enum[Enum.A]; // "A"
+```
+
+* never inlined, so 추가 생성 코드 및 indirect 비용을 줄이려면 enum 키워드 앞에 const를 붙여라
+```js
+const enum Enum {
+    A
+}
+let a = Enum.A;
+let nameOfA = Enum[Enum.A]; // Error : A const enum member can only be accessed using a string literal.
+```
+* const enum은 compile시 완전히 제거 됨 
+
+```js
+const enum Enum {
+    A = 1,
+    B = A * 2
+}
+let a = Enum.A;
+//var a = 1 /* A */;
+
 ```
