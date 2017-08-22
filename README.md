@@ -15,7 +15,7 @@
 ## Enums
 [Enums](https://github.com/lunchclass/typescript/blob/master/Enums.md)
 ## Type Inference
-[TypeInference.md]
+[TypeInference](https://github.com/lunchclass/typescript/blob/master/TypeInference.md)
 ## Type Compatibility
 [TypeCompatibility.md]
 ## Advanced Types
