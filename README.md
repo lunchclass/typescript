@@ -1,17 +1,17 @@
 # Typescript-study
 
 ## Basic Types
-[BasicType](https://github.com/lunchclass/typescript/master/BasicType.md)
+[BasicType](https://github.com/lunchclass/typescript/blob/master/BasicType.md)
 ## Variable Declarations
-[VariableDeclarations](https://github.com/lunchclass/typescript/master/VariableDeclarations.md)
+[VariableDeclarations](https://github.com/lunchclass/typescript/blob/master/VariableDeclarations.md)
 ## Interfaces
-[Interfaces](https://github.com/lunchclass/typescript/master/Interfaces.md)
+[Interfaces](https://github.com/lunchclass/typescript/blob/master/Interfaces.md)
 ## Classes
-[Classes](https://github.com/lunchclass/typescript/master/Classes.md)
+[Classes](https://github.com/lunchclass/typescript/blob/master/Classes.md)
 ## Functions
-[Functions](https://github.com/lunchclass/typescript/master/Functions.md)
+[Functions](https://github.com/lunchclass/typescript/blob/master/Functions.md)
 ## Generics
-[Generics](https://github.com/lunchclass/typescript/master/Generics.md)
+[Generics](https://github.com/lunchclass/typescript/blob/master/Generics.md)
 ## Enums
 [Enums.md]
 ## Type Inference
