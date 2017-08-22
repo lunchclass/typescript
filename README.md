@@ -17,7 +17,7 @@
 ## Type Inference
 [TypeInference](https://github.com/lunchclass/typescript/blob/master/TypeInference.md)
 ## Type Compatibility
-[TypeCompatibility.md]
+[TypeCompatibility.md](https://github.com/lunchclass/typescript/blob/master/type-compatibility.md)
 ## Advanced Types
 [AdvancedTypes.md]
 ## Symbols
