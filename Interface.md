@@ -97,6 +97,7 @@ mySearch = function(src, sub) {
 ## Indexable Types
 
 index signature를 사용하여 interface를 indexable type으로 만들 수 있습니다.
+https://basarat.gitbooks.io/typescript/docs/types/index-signatures.html
 
 ```Typescript
 ////////////////////////////////
