@@ -236,3 +236,36 @@ c(10);
 c.reset();
 c.interval = 5.0;
 ```
+
+## Interfaces Extending Classes
+
+
+interface가 class를 상속할 경우 class의 구현부를 제외한 member를 상속받을 수 있다.
+즉, 아래 Button과 TextBox는 SelectableControl로 casting이 가능하면서 state 멤버를 사용할 수 있게된다.
+Image와 Location은 Control의 state를 사용할 수 없다.
+
+```Typescript
+class Control {
+    private state: any;
+}
+
+interface SelectableControl extends Control {
+    select(): void;
+}
+
+class Button extends Control {
+    select() { }
+}
+
+class TextBox extends Control {
+    select() { }
+}
+
+class Image {
+    select() { }
+}
+
+class Location {
+    select() { }
+}
+```
