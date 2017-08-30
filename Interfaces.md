@@ -39,7 +39,9 @@ let point: Point = { x: 5, y: 2 };
 //error
 point.x = 1;
 //ok
-const b: number = 1;//errorreadonly a: number = 1;
+const b: number = 1;
+//error
+readonly a: number = 1;
 ```
 
 ## Excess Property Checks
