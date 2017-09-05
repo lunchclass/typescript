@@ -18,10 +18,9 @@
 
 Link : http://www.typescriptlang.org/docs/handbook/modules.html
 
-//////////////////////////////////////////////////////////////////
-#Common JS 와 AMD
+# Common JS 와 AMD
 http://d2.naver.com/helloworld/12864
-###CommonJS
+### CommonJS
 서버 사이드 Javascript의 주요 쟁점
 1. 서로 호환되는 표준 라이브러리가 없다.
 2. 데이터베이스에 연결되는 표준 인터페이스가 없다.
@@ -34,7 +33,7 @@ http://d2.naver.com/helloworld/12864
 
 비동기 모듈 로드 문제
 
-###AMD
+### AMD
 두 줄기의 표준화 움직임
 CommonJS와 AMD의 비교
 AMD의 모듈 명세
